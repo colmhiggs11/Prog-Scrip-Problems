@@ -3,16 +3,20 @@
 # based on whether that integer is even or odd.
 
 b = int (input ("Please enter a positive integer"))
-m = 2
+d = 2
+m = 3
 
-# This loop will print all even numbers from integer input to 1
+# Loop will run until it reaches 1. **Don't put in >= 1 or it will create infinte loop.
 while b > 1:
-
-    if b % m == 0:
-        b = b/m
-        
+        # Any number is even if after dividing by two there is no
+        # remainder left over.
+    if b % 2 == 0:
+            # If integer is even it will be divided by two until it
+            # reaches an odd integer.
+        b = b/d
         print (b)
-    elif b % m != 0:
-        b = (b*3)+1
-
+        # If remainder is not equal to zero when divided by two then integer is odd.
+    elif b % d != 0:
+            # If integer is odd it will be multiplied by 3 and 1 added to this answer.
+        b = (b*m)+1
         print(b)
