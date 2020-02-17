@@ -14,7 +14,7 @@ while b > 1:
             # If integer is even it will be divided by two until it
             # reaches an odd integer.
         b = b/d
-        print (b)
+        print(b)
         # If remainder is not equal to zero when divided by two then integer is odd.
     elif b % d != 0:
             # If integer is odd it will be multiplied by 3 and 1 added to this answer.
