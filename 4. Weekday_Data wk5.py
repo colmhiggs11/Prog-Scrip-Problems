@@ -19,4 +19,4 @@ while a < 6 > 0:
         print("Unfortunately its a","\u0332".join(a))
         break
         
-
+            
