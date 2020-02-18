@@ -4,11 +4,11 @@ This Project is the overarching file that is made up of the weekly problems
 set for the Programming and scripting module
 
 ## Table of Contents
-* [Week 2 BMI Calculation](#bmi-calc)
-** [2.1 General Info](#bmi-calc)
-** [2.2 Technology / Running code](#tech-code)
-** [2.3 Sources](#sources)
-** [2.4 License](#license)
+* [Week 2 BMI Calculation](#bmi.calculation)
+** [2.1 General Info](#general.info2)
+** [2.2 Technology / Running code](#technology-runningcode2)
+** [2.3 Sources](#sources2)
+** [2.4 License](#license2)
 * [Week 3 Variables](#variables)
 ** [3.1 General Info](#bmi-calc)
 ** [3.2 Technology / Running code](#tech-code)
