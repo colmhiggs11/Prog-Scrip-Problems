@@ -15,7 +15,8 @@ while a < 6 > 0:
         break
     elif a < 5 >= 0:
         a = "weekday"
-        print("Unfortunately its a",a)
+        # Will print out "a" underlined
+        print("Unfortunately its a","\u0332".join(a))
         break
         
 

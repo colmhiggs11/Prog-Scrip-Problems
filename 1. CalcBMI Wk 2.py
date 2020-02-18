@@ -10,6 +10,7 @@ weight = 65
 height = 180
 
 BMI = weight / ((height/100)**2)
-#Rounding BMI to decimal place
+#Rounding BMI to decimal place found on Stackoverflow
+#https://stackoverflow.com/questions/2075128/python-print-all-floats-to-2-decimal-places-in-output
 
 print(format(BMI,'.2f'))
