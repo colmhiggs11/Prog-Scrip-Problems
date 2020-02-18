@@ -22,6 +22,35 @@ but the code that is commented out allows user to input any values.
 This program was written in Python 3.7.4
 ### Sources
 
-### Licemse
+### License
 This project is licensed under the MIT License
 
+## Week 3 Variables
+### General Info
+This program calculates 
+### Technology / Running code
+This program was written in Python 3.7.4
+### Sources
+
+### License
+This project is licensed under the MIT License
+
+## Week 4 Control the flow
+### General Info
+This program calculates 
+### Technology / Running code
+This program was written in Python 3.7.4
+### Sources
+
+### License
+This project is licensed under the MIT License
+
+## Week 5 Data Structures
+### General Info
+This program calculates 
+### Technology / Running code
+This program was written in Python 3.7.4
+### Sources
+
+### License
+This project is licensed under the MIT License
