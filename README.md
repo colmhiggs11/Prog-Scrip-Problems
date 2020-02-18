@@ -10,8 +10,20 @@ set for the Programming and scripting module
 ** [Sources](#sources)
 ** [License](#license)
 * [Week 3 Variables](#variables)
+** [General Info](#bmi-calc)
+** [Technology / Running code](#tech-code)
+** [Sources](#sources)
+** [License](#license)
 * [Week 4 Control the flow](#control-flow)
+** [General Info](#bmi-calc)
+** [Technology / Running code](#tech-code)
+** [Sources](#sources)
+** [License](#license)
 * [Week 5 Data Structures](#data-structures)
+** [General Info](#bmi-calc)
+** [Technology / Running code](#tech-code)
+** [Sources](#sources)
+** [License](#license)
 
 ## Week 2 BMI Calculation
 ### General Info
