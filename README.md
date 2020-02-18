@@ -19,50 +19,50 @@ set for the Programming and scripting module
 ** [4.2 Technology / Running code](#4.2-technology-runningcode)
 ** [4.3 Sources](#4.3-sources)
 ** [4.4 License](#4.4-license)
-* [Week 5 Data Structures](#data-structures)
+* [Week 5 Data Structures](#week-5-data-structures)
 ** [5.1 General Info](#5.1-general-info)
 ** [5.2 Technology / Running code](#5.2-technology-runningcode)
 ** [5.3 Sources](#5.3-sources)
 ** [5.4 License](#5.4-license)
 
 ## Week 2 BMI Calculation
-### General Info
+### 2.1 General Info
 This program calculates the BMI of the user using the formula "BMI = Weight (KG) ÷ Height (Metres²)".
 Specific values have been assigned 
 but the code that is commented out allows user to input any values.
-### Technology / Running code
+### 2.2 Technology / Running code
 This program was written in Python 3.7.4
-### Sources
+### 2.3 Sources
 
-### License
+### 2.4 License
 This project is licensed under the MIT License
 
 ## Week 3 Variables
-### General Info
+### 3.1 General Info
 This program calculates 
-### Technology / Running code
+### 3.2 Technology / Running code
 This program was written in Python 3.7.4
-### Sources
+### 3.3 Sources
 
-### License
+### 3.4 License
 This project is licensed under the MIT License
 
 ## Week 4 Control the flow
-### General Info
+### 4.1 General Info
 This program calculates 
-### Technology / Running code
+### 4.2 Technology / Running code
 This program was written in Python 3.7.4
-### Sources
+### 4.3 Sources
 
-### License
+### 4.4 License
 This project is licensed under the MIT License
 
 ## Week 5 Data Structures
-### General Info
+### 5.1 General Info
 This program calculates 
-### Technology / Running code
+### 5.2 Technology / Running code
 This program was written in Python 3.7.4
-### Sources
+### 5.3 Sources
 
-### License
+### 5.4 License
 This project is licensed under the MIT License
