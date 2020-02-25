@@ -34,28 +34,23 @@
 #print("Smaller num is " ,(smaller_num(x,y)))
 
 #small = smaller_num(y)
+N = float(input("Enter positive number you are looking for approximate sqrt for  "))
+if N <= 0:
+    print("Please run program again and select positive number")
+x0 = N/2
 
-N = int(input("Enter number you are looking for approximate sqrt  "))
-x = N/2
-def f(x,N):
-    fxn = x**2 - N  
+#def new_raph(x1):
+while 0 < x0 == x0:
+    fxn = (x0**2) - N
+    fpxn = (2*x0)
+    x1 = x0 - (fxn) / (fpxn)
+    if fxn <= 0.1:
+        print(x1)
+        break
+    else:
+        x0 = x1
 
-    if fxn == 0:
-        print(x)
-    elif fxn !=0:
-        fxn = x
-        fxn = x**2 - N
-        fpxn = 2*x
-        sqrt = x - (fxn) / (fpxn)
-        if fxn == 0:
-            print(sqrt)
-        else:
-            fxn = sqrt            
-            fxn = x**2 - N
-            fpxn = 2*x
-            sqrt = x - (fxn) / (fpxn)
-            print(sqrt)
-                
 
-f(x, N)
+
+    
 
