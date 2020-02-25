@@ -38,16 +38,24 @@
 N = int(input("Enter number you are looking for approximate sqrt  "))
 x = N/2
 def f(x,N):
-    fxn = x**2 - N
-    while fxn >= 1:
+    fxn = x**2 - N  
+
+    if fxn == 0:
+        print(x)
+    elif fxn !=0:
+        fxn = x
+        fxn = x**2 - N
+        fpxn = 2*x
+        sqrt = x - (fxn) / (fpxn)
         if fxn == 0:
-            print(x)
+            print(sqrt)
         else:
-            fxn = x
+            fxn = sqrt            
             fxn = x**2 - N
             fpxn = 2*x
             sqrt = x - (fxn) / (fpxn)
             print(sqrt)
+                
 
 f(x, N)
 
