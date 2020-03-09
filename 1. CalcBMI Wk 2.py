@@ -1,3 +1,4 @@
+# Colm Higgins 
 # This will be a calculation of BMI for a certain individual
 
 #For anyone that wants to input their own weight use below code and remove comments
