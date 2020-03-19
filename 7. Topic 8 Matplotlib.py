@@ -15,5 +15,9 @@ g_x = f_x**2
 h_x = f_x**3
 
 print(f_x,g_x,h_x)
-plt.show(plt.plot(f_x,".r",g_x,".g",h_x,".b",)) 
-
+plt.plot(f_x,"gs", label = "x")
+plt.plot(g_x,"r^", label = "x^2")
+plt.plot(h_x,".b", label = "x^3")
+plt.legend()
+plt.title("Functions of x , x^2 & x^3")
+plt.show()
