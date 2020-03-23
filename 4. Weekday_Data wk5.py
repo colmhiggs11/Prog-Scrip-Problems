@@ -1,11 +1,13 @@
 # Colm Higgins
 # Program to output whether or not today is a weekday or weekend.
-
+# There are no date types in python but by importing the datetime module
+# dates can be used as objects.
 import datetime
+# This will get the current date
 datetime.datetime.now()
-
+# Assigning that value to "now"
 now = datetime.datetime.now()
-
+# Assigning the value of the weekday to "a"
 a = now.weekday()
 # Values of weekend days are as follows [Saturday,Sunday] = [5,6]
 # Values of weekdays are as follows [Monday,..,Friday] = [0,..,4]
