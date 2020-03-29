@@ -104,11 +104,18 @@ This project is licensed under the MIT License
 
 ## 5. Topic 6 Newton Raphson Sqrt method
 ### 5.1 General Info
-This program calculates 
+This program approximates the squareroot of the value entered by the user using Newton Raphsons Method for approximation of squareroots (NR).
 ### 5.2 Technology / Running code
 This program was written in Python 3.7.4
+Firstly the function new_raph was defined. This will allow the calculations to be used in future pieces of code/programs by calling the function. The arguement "N" is added into the parenthesis after the function. When calling the function a value will be given to "N". "N" will be the value of the number that the user wants to get the squareroot of. "x0" will be the inital guess and "fxn" the function used in NR method. The "while" loop has the parameters that means it will run if "fxn" is greater than 0.1(If fxn goes below this the loop will be stopped, 0.1 was chosen as if "fxn" was equal to 0 this would be the exact squareroot of the input). NR method is calculated by using the intial guess to calculate a more accurate guess. The formula is the following: x1 = x0 - (fxn) / (fpxn) where:
+x1 = The next approximated guess
+x0 = The initial, last approximation
+fxn = Function used in NR method
+fpxn = The derivative of fxn
+If the value of "fxn" for the calculated value of "x0" & "x1" is less than 0.1 then the approximation will be complete otherwise the value of "x1" will be assigned to "x0" and the calculations will be completed again until "fxn" is less than 0.1. These calculations are run when the function is called, in this instance the user is required to input any positive value with decimals allowed and the output will return the approximation to two decimal places.
 ### 5.3 Sources
-
+The main sources used in completion of this task were:
+A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc
 ### 5.4 License
 This project is licensed under the MIT License
 
