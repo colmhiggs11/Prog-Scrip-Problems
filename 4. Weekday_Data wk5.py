@@ -7,18 +7,18 @@ import datetime
 datetime.datetime.now()
 # Assigning that value to "now"
 now = datetime.datetime.now()
-# Assigning the value of the weekday to "a"
-a = now.weekday()
+# Assigning the value of the weekday to "tday"
+tday = now.weekday()
 # Values of weekend days are as follows [Saturday,Sunday] = [5,6]
 # Values of weekdays are as follows [Monday,..,Friday] = [0,..,4]
-if a >= 5:
-    a = "weekend"
+if tday >= 5:
+    tday = "weekend"
     # Will print if value for a >=5
-    print("Thank God it's the",a)  
-elif a <= 4:
-    a = "weekday"
+    print("Thank God it's the",tday)  
+elif tday <= 4:
+    tday = "weekday"
     # Will print if a <= 4 and will also print "a" underlined
     # https://stackoverflow.com/questions/35401019/how-do-i-print-something-underlined-in-python
-    print("Unfortunately today is a","\u0332".join(a))
+    print("Unfortunately today is tday","\u0332".join(tday))
         
             

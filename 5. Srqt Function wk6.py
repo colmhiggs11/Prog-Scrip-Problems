@@ -3,6 +3,7 @@
 # for Approximating Square Roots.
 
 # defining the function with the def statment. The parameter is listed as N.
+# https://www.tutorialspoint.com/python3/python_tutorial.pdf
 def new_raph(N):
     # variables assigned values
     x0 = N/2

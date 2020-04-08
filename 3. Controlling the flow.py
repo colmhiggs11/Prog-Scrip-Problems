@@ -12,6 +12,7 @@ m = 3
 # If numbers is even first calculation is run, if odd second calculation.
 # This runs until the value of "b" is 1.
 # While loop research from "A Whirlwind Tour of Python, Jake VanderPlas"
+# Also https://docs.python.org/3/tutorial/controlflow.html?highlight=control
 while b > 1:
     # Any number is even if after dividing by two there is no
     # remainder left over.
